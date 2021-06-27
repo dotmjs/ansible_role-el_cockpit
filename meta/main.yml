@@ -1,0 +1,20 @@
+galaxy_info:
+  role_name: el_cockpit
+  author: dotmjs
+  description: Role to configure Cockpit (https://cockpit-project.org/) on EL systems
+
+  license: BSD
+
+  min_ansible_version: 2.4
+
+  platforms:
+  - name: Fedora
+    versions:
+    - 34
+  - name: EL
+    versions:
+    - 8
+
+  galaxy_tags:
+  - cockpit
+  - management
