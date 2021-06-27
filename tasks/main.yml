@@ -5,7 +5,7 @@
     notify:
       - Restart cockpit
 
-  - name: Adjust installation for altnerate port
+  - name: Adjust installation for alternate port
     block:
     - name: Create systemd override location for Cockpit port
       file: path="/etc/systemd/system/cockpit.socket.d/" state=directory
